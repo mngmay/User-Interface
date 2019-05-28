@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 75%;
+}
+nav {
+	display: inline-block;
+	margin: 50px;
+}
+
+nav a{
+	font-size: 12px;
+	margin: 25px;
+	padding: 10px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+.openertext {
+	display: inline-block;
+	padding: 0 5% 0 15%;
+	vertical-align: middle;
+}
+
+.openerimg {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+button {
+	border: 1px solid black;
+	font-size: 12px;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 2px 40px;
+	margin: 0 25%;
+	
+}
+
+.content {
+	margin: 0 10%;
+}
+
+.contentrow1 .contentblock {
+	display: inline-block; 
+	width: 49%
+}
+
+.contentrow2 .contentblock {
+	display: inline-block; 
+	width: 33%
+}
+
+hr {
+	border-color: gray;
+	margin: 50px 0;
+}
+
+.middle-img {
+	margin: 30px 0;
+}
+
+.phone {
+	margin: 20px 0;
+}
+
+.email {
+	margin: 20px 0;
+}
+
+.copyright {
+	text-align: center;
+	margin: 50px;
+}
+
+@keyframes navigation {
+	from {background-color: white;}
+	to {background-color: rgb(219, 213, 213);}
+  }
+
+nav a:hover {
+	background: lightblue;
+	color: purple;
+	animation-name: navigation;
+	animation-duration: 2s;
+}

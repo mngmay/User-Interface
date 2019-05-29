@@ -70,12 +70,12 @@ body {
 }
 nav {
 	display: inline-block;
-	margin: 50px;
+	margin: 0 50px 50px 50px;
 }
 
 nav a{
 	font-size: 12px;
-	margin: 25px;
+	margin: 15px;
 	padding: 10px;
 	text-decoration: none;
 	color: lightgray;
@@ -120,7 +120,7 @@ button {
 
 .contentrow2 .contentblock {
 	display: inline-block; 
-	width: 33%
+	width: 32%
 }
 
 hr {
@@ -130,6 +130,7 @@ hr {
 
 .middle-img {
 	margin: 30px 0;
+	width: 100%;
 }
 
 .phone {
@@ -155,4 +156,10 @@ nav a:hover {
 	color: purple;
 	animation-name: navigation;
 	animation-duration: 2s;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px 70px;
 }

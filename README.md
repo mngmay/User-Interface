@@ -1,5 +1,4 @@
 <!-- Adding firstname lastname as requested -->
-
 May Ng 
 
 # User Interface Project: Great Idea Web Page
